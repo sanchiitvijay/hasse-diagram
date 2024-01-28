@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+}
+object {
+  width: 500px;
+  height: 400px;
+}
+
+/* text {
+  color: #ffffff;
+} */
+
+#chart {
+  width: auto;
+  height: auto;
+  background-color: red;
+  align-content: center;
+  color: #ffffff;
+}
+
+circle {
+  stroke-width: 1.5px;
+}
+
+line {
+  stroke: #999;
+  stroke-width: 3px;
+}
+
+/* .num {
+  color: white;
+} */
+
+.container {
+  position: absolute;
+  display: flex;
+  width:auto;
+  align-content: center;
+  align-items: center; 
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+.heading {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+}
+
+.input-form {
+  width: 300px;
+}
