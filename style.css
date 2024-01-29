@@ -2,14 +2,11 @@ body {
   background-color: white;
   font-size: medium ;
 }
+
 object {
   width: 500px;
   height: 400px;
 }
-
-/* text {
-  color: #ffffff;
-} */
 
 .hide {
   visibility: hidden;
@@ -32,10 +29,6 @@ line {
   stroke-width: 3px;
 }
 
-/* .num {
-  color: white;
-} */
-
 .container {
   position: absolute;
   display: flex;
@@ -44,7 +37,6 @@ line {
   align-items: center; 
   left: 50%;
   transform: translate(-50%);
-
 }
 
 .heading {
@@ -57,4 +49,3 @@ line {
 .input-form {
   width: 300px;
 }
-
