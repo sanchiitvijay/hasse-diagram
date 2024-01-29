@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  font-size: medium ;
 }
 object {
   width: 500px;
@@ -9,6 +10,10 @@ object {
 /* text {
   color: #ffffff;
 } */
+
+.hide {
+  visibility: hidden;
+}
 
 #chart {
   width: auto;
@@ -46,8 +51,10 @@ line {
   background-color: #007bff;
   color: white;
   padding: 10px;
+  font-size: 30px;
 }
 
 .input-form {
   width: 300px;
 }
+
