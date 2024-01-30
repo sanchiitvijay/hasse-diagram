@@ -91,6 +91,7 @@ function newsub() {
       newtemp = newtemp + str[j];
     }
     temp = newtemp.split(",");
+    console.log(temp);
     x2 = 1;
 
         sf();
@@ -327,10 +328,11 @@ function load_home() {
       let reversed = "";
       for (var i = str.length - 1; i >= 0; i--) {
         reversed += str[i];
+      }
       d.name = reversed;
 
       return d.name;
-    }});
+    });
 
   force.nodes(graph.nodes).links(graph.links).on("tick", tick).start();
 

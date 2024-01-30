@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 body {
-  background-color: white;
-  font-size: medium ;
+  /* .gradient-background { */
+  background: linear-gradient(to right, #f8f8f8, #3498db);
+/* } */
+  font-family: 'Poor Story', system-ui;
+  font-weight: 600;
+  font-size: large ;
 }
 
 object {
-  width: 500px;
+  width: 100px;
   height: 400px;
 }
 
@@ -31,7 +37,7 @@ line {
 
 .container {
   position: absolute;
-  display: flex;
+  /* display: flex; */
   width:auto;
   align-content: center;
   align-items: center; 
@@ -40,12 +46,20 @@ line {
 }
 
 .heading {
-  background-color: #007bff;
-  color: white;
+  /* background-color: #365486; */
+  background: linear-gradient(to bottom right, #1B0570, #4811B4);
+  color: #F5F5F5;
+  font-family: 'Poor Story', system-ui;
   padding: 10px;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .input-form {
   width: 300px;
+}
+
+.btn-bd-primary {
+  --bs-btn-color: var(--bs-violet);
+  
 }
